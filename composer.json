@@ -1,0 +1,22 @@
+{
+    "name": "happyr/identifier-interface",
+    "type": "interface",
+    "description": "Write down your routing mapping at one place",
+    "keywords": ["Identifier", "Interface", "id"],
+    "homepage": "http://developer.happyr.se/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tobias Nyholm",
+            "email": "tobias@happyrecruiting.se"
+        }
+    ],
+    "require": {
+        "php": ">=4"
+    },
+    "autoload": {
+        "psr-0": {
+            "HappyR": ""
+        }
+    }
+}
