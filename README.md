@@ -1,7 +1,7 @@
 # HappyR Identifier Interface
 
 This "library" is not much. It is just one interface. The interface makes sure you have a public function called
-''getId()''.
+*getId()*.
 
 Say that you are writing AcmeMessageBundle with a Message entity. Each Message should have a relation to a User. You
 could write something like this:
@@ -47,4 +47,4 @@ class User implements SymfonyUserInterface, AcmeMessageBundleIdInterface, OtherB
 }
 ````
 
-When we create ''Symfony2'' bundles we will always use the HappyR Identifier Interface for both public and interal work.
+When we create **Symfony2** bundles we will always use the HappyR Identifier Interface for both public and interal work.
